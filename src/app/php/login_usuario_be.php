@@ -11,7 +11,12 @@ $validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo='$
 
 if(mysqli_num_rows($validar_login) > 0){
     $_SESSION['usuario'] = $correo;
-    header("location: ../casa/casa.component.html");
+    echo '<script>
+      sessionStorage.setItem("login", 1);
+      window.location = "http://localhost/Proyecto/Escuela/src/app/casa/casa.component.html"
+    </script>';
+
+    // header("location: ../casa/casa.component.html");
     exit;
 } else{
     echo'
