@@ -31,14 +31,14 @@
         </li>
 
         <li>
-  <a class="" href="http://localhost/Proyecto/Escuela/src/app/alumnos/alumnos.component.php">
-    <button class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize" type="button">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-5 h-5 text-inherit">
-        <path fill-rule="evenodd" d="M12 2a5 5 0 100 10 5 5 0 000-10zM2 20c0-3.9 3.1-7 7-7h6c3.9 0 7 3.1 7 7v1H2v-1z" clip-rule="evenodd"></path>
-      </svg>
-      <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-medium capitalize">Estudiantes</p>
-    </button>
-  </a>
+          <a href="../business/table/table.component.php">
+            <button routerLinkActive="bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40" class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-5 h-5 text-inherit">
+                <path fill-rule="evenodd" d="M1.5 5.625c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v12.75c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 18.375V5.625zM21 9.375A.375.375 0 0020.625 9h-7.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h7.5a.375.375 0 00.375-.375v-1.5zm0 3.75a.375.375 0 00-.375-.375h-7.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h7.5a.375.375 0 00.375-.375v-1.5zm0 3.75a.375.375 0 00-.375-.375h-7.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h7.5a.375.375 0 00.375-.375v-1.5zM10.875 18.75a.375.375 0 00.375-.375v-1.5a.375.375 0 00-.375-.375h-7.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375h7.5zM3.375 15h7.5a.375.375 0 00.375-.375v-1.5a.375.375 0 00-.375-.375h-7.5a.375.375 0 00-.375.375v1.5c0 .207.168.375.375.375zm0-3.75h7.5a.375.375 0 00.375-.375v-1.5A.375.375 0 0010.875 9h-7.5A.375.375 0 003 9.375v1.5c0 .207.168.375.375.375z" clip-rule="evenodd"></path>
+              </svg>
+              <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-medium capitalize">tables</p>
+            </button>
+          </a>
 </li>
 
       </ul>
@@ -64,11 +64,11 @@
             <span class="text-gray-500 text-sm antialiased font-sans font-normal leading-normal mx-2 pointer-events-none select-none">/</span>
           </li>
           <li class="flex items-center text-blue-900 antialiased font-sans text-sm font-normal leading-normal cursor-pointer transition-colors duration-300 hover:text-blue-500">
-            <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">Tablas</p>
+            <p class="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal">Estudiantes</p>
           </li>
         </ol>
       </nav>
-      <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-gray-900">Tablas</h6>
+      <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-gray-900">Estudiantes</h6>
     </div>
     <div class="flex items-center">
       <div class="mr-auto md:mr-4 md:w-56">
@@ -84,19 +84,22 @@
           </svg>
         </span>
       </button>
-      <a href="#">
+      <a href="http://localhost/Proyecto/Escuela/src/app/alumnos/alumnoslist.component.php">
         <button class="middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-gray-500 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 hidden items-center gap-1 px-4 xl:flex" type="button">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-5 w-5 text-blue-gray-500">
-            <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd"></path>
-          </svg>Sign In </button>
+            <path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"></path>
+          </svg>
+          Listas
+        </button>
         <button class="relative middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-10 max-w-[40px] h-10 max-h-[40px] rounded-lg text-xs text-gray-500 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 grid xl:hidden" type="button">
           <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-5 w-5 text-blue-gray-500">
-              <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd"></path>
+              <path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"></path>
             </svg>
           </span>
         </button>
       </a>
+
       <button class="relative middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-10 max-w-[40px] h-10 max-h-[40px] rounded-lg text-xs text-gray-500 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30" type="button">
         <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-5 w-5 text-blue-gray-500">
@@ -122,55 +125,50 @@
       <!--Dashboard-->
     </div>
     <!--Contenido -->
-    <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Escuelas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Escuelas Registradas</h1>
-        <table>
-            <thead>
-                <tr>
-                <th class="py-2 px-4">Nombre</th>
-                <th class="py-2 px-4">Dirección</th>
-                <th class="py-2 px-4">Ciudad</th>
-                <th class="py-2 px-4">Estado</th>
-                <th class="py-2 px-4">Código Postal</th>
-                <th class="py-2 px-4">Latitud</th>
-                <th class="py-2 px-4">Longitud</th>
-                <th class="py-2 px-4">Imagen</th>
-                <th class="py-2 px-4">Fecha de Registro</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php include 'obtener_escuelas.php'; ?>
-            </tbody>
-        </table>
-    </div>
-</body>
-</html>
+    <div class="max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md px-8 py-10 flex flex-col items-center">
+  <h1 class="text-xl font-bold text-center text-gray-700 dark:text-gray-200 mb-8">Formulario de Registro de Alumnos</h1>
+  <form action="/Proyecto/Escuela/src/app/alumnos/alumno.php" method="POST" class="w-full flex flex-col gap-4" enctype="multipart/form-data">
+      <label for="Escuela" class="text-sm text-gray-700 dark:text-gray-200">Seleccionar Escuela:</label>
+      <select id="Escuela" name="Escuela" required class="border border-gray-300 rounded-md p-2">
+          <option value="">Seleccione una escuela</option>
+          <?php
+              // Conexión a la base de datos
+              include 'conexion_be.php';
+              $consulta = "SELECT id, nombre FROM escuelas";
+              $resultado = mysqli_query($conexion, $consulta);
+
+              // Generar opciones dinámicamente
+              while ($escuela = mysqli_fetch_assoc($resultado)) {
+                  echo "<option value='" . $escuela['id'] . "'>" . $escuela['nombre'] . "</option>";
+              }
+          ?>
+      </select>
+
+      <label for="NombreAlumno" class="text-sm text-gray-700 dark:text-gray-200">Nombre del Alumno:</label>
+      <input type="text" id="NombreAlumno" name="NombreAlumno" required class="border border-gray-300 rounded-md p-2">
+
+      <label for="ApellidoAlumno" class="text-sm text-gray-700 dark:text-gray-200">Apellido del Alumno:</label>
+      <input type="text" id="ApellidoAlumno" name="ApellidoAlumno" required class="border border-gray-300 rounded-md p-2">
+
+      <label for="TelefonoAlumno" class="text-sm text-gray-700 dark:text-gray-200">Teléfono:</label>
+      <input type="text" id="TelefonoAlumno" name="TelefonoAlumno" required class="border border-gray-300 rounded-md p-2">
+
+      <label for="DireccionAlumno" class="text-sm text-gray-700 dark:text-gray-200">Dirección:</label>
+      <input type="text" id="DireccionAlumno" name="DireccionAlumno" required class="border border-gray-300 rounded-md p-2">
+
+      <label for="DatosTutor" class="text-sm text-gray-700 dark:text-gray-200">Datos del Tutor:</label>
+      <input type="text" id="DatosTutor" name="DatosTutor" required class="border border-gray-300 rounded-md p-2">
+
+      <label for="CursoActual" class="text-sm text-gray-700 dark:text-gray-200">Curso Actual:</label>
+      <input type="text" id="CursoActual" name="CursoActual" required class="border border-gray-300 rounded-md p-2">
+
+      <!-- Imagen del alumno -->
+      <label for="ImagenAlumno" class="text-sm text-gray-700 dark:text-gray-200">Cargar Imagen del Alumno:</label>
+      <input type="file" id="ImagenAlumno" name="ImagenAlumno" required class="border border-gray-300 rounded-md p-2">
+
+      <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md shadow-sm">Registrar Alumno</button>
+  </form>
+</div>
 
 
 
